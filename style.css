@@ -1,0 +1,53 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+}
+
+.box-item {
+    flex: 1;
+    height: 100vh;
+    position: relative;
+}
+
+.details {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-30%, -50%);
+
+}
+
+img {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-30%, -50%);
+    border-radius: 25px;
+}
+
+.details h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+
+.details a {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    color: #016A70;
+    text-decoration: none;
+
+}
